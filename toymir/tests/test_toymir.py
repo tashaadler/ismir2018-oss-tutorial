@@ -14,8 +14,7 @@ def test_midi_to_hz_array():
     assert np.allclose(toymir.midi_to_hz([60, 64, 69]), expected)
 
 
-# Hello, you're probably at the start of Part 5!
-# These are the two tests you should uncomment!
+## Update!
 
 
 def test_hz_to_midi_float():
